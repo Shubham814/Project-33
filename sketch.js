@@ -14,7 +14,7 @@ var gameState ="start";
 
 
 function setup() {
-  createCanvas(800, 686);
+  createCanvas(800, 700);
 
   engine = Engine.create();
   world = engine.world;
@@ -82,7 +82,7 @@ function draw() {
     {
        particle.display();
         
-        if (particle.body.position.y>625)
+        if (particle.body.position.y>650)
         {
               if (particle.body.position.x < 300) 
               {
