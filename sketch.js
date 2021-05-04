@@ -7,7 +7,7 @@ var plinkos = [];
 var divisions =[];
 var particle;
 
-var divisionHeight=300;
+var divisionHeight=250;
 var score =0;
 var count = 0;
 var gameState ="start";
